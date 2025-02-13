@@ -1,0 +1,29 @@
+git init
+ git status
+ git add testing.py
+git status
+git commit -m "added testing files"
+git status
+git commit -m "added testing.py"
+git config --global user.email "yuvranirandive@gmail.com"
+git config --global user.name "yuvrani"
+ls
+git status
+git commit -m "added to testing files"
+git status
+rm testing.py
+ls
+git status
+git restore testing.py
+git status
+git add git_commands.txt
+git status
+git commit -m "added git command"
+git status
+git remote add origin https://github.com/randiveyuvrani/github_for_devops.git
+git remote -v
+git status
+git push origin master
+git remote set-url(___copy and paste personal access token)@github.com/randiveyuvrani/github_for_devops.git
+git remote -v
+git push origin master
